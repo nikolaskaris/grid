@@ -2,15 +2,7 @@ $(document).ready(function(){
   $('body').prepend('<div class="container"></div>')
   
   $('.container').prepend('<button onclick="newGrid(); return false">New Grid</button>')
-    .append('<ul></ul>')
-    .append('<ul></ul>')
-    .append('<ul></ul>')
-    .append('<ul></ul>')
-  
-  $('ul').append('<li></li>')
-    .append('<li></li>')
-    .append('<li></li>')
-    .append('<li></li>')
+    
 
   $('li').css({
     display: 'inline-block',
